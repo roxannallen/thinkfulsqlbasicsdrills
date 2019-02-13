@@ -1,0 +1,9 @@
+SELECT
+	trip_id,
+	duration
+FROM
+	trips
+ORDER BY 
+	duration
+LIMIT 1
+

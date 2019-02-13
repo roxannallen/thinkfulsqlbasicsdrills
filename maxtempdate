@@ -1,0 +1,8 @@
+SELECT
+	date,
+	maxtemperaturef
+FROM
+	weather
+ORDER BY 
+	maxtemperaturef DESC
+LIMIT 1
