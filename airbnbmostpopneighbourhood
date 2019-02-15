@@ -1,0 +1,8 @@
+SELECT
+	COUNT(*),
+	neighbourhood
+FROM
+	sfo_listings
+GROUP BY sfo_listings.neighbourhood
+ORDER BY 1 DESC
+-- Mission, Western Addition, South of Market, Downtown/Civic Center, and Castro/Upper Market are the neighorhoods with the most number of listings, so they are the most popular as far as number of listings.
